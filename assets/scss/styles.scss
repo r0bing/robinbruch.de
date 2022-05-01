@@ -181,7 +181,12 @@ html {
     fill: currentColor;
     display: inline-block;
 	margin: 0 10px;
-  }
+ }
+}
+
+ .inline-svg:hover {
+	background-color: #fff;
+	color: #353535;
 }
 
 @media (max-width: 414px) {
