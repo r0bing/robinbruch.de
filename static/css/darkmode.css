@@ -67,6 +67,11 @@ body.dark-mode .hash {
 	text-decoration: none;
 }
 
+body.dark-mode .inline-svg:hover {
+	background: #121212;
+	color: #353535;
+}
+
 body.dark-mode .littlefoot-footnote__button{
     -webkit-font-smoothing:antialiased;
     backface-visibility:hidden;
