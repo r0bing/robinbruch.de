@@ -1,0 +1,101 @@
+.js-toggle {
+    touch-action: pan-x;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+body.dark-mode, 
+body.dark-mode main * {
+    background: rgb(18, 18, 18);
+    color: #f5f5f5;
+    font-weight: 300;
+}
+
+body.dark-mode strong {
+    font-weight: 500;
+}
+
+body.dark-mode h2 {
+    font-weight: 550;
+}
+
+body.dark-mode h3 {
+    font-weight: 450;
+}
+
+body.dark-mode h4 {
+    font-weight: 450;
+}
+
+body.dark-mode a:hover {
+    background: #f5f5f5;
+    color: #121212;
+}
+
+body.dark-mode ::selection {
+    background: #f5f5f5;
+    color: #121212;
+}
+
+body.dark-mode a:focus {
+    background: #f5f5f5;
+    color: #121212;
+}
+
+body.dark-mode hr {
+    background: #f5f5f5;
+    height: 1px;
+    border: 0;
+}
+
+body.dark-mode blockquote {
+    border-left: 5px solid #f5f5f5;
+    padding-left: 1rem;
+    opacity: 0.9;
+}
+
+body.dark-mode .hash {
+	opacity: .8;
+	text-decoration: none;
+}
+
+body.dark-mode .littlefoot-footnote__button{
+    -webkit-font-smoothing:antialiased;
+    backface-visibility:hidden;
+    background-color:rgba(110,110,110,0.4);
+    border-radius:.5em;border:0;
+    box-sizing:border-box;
+    color:rgba(240,240,240,0.8);
+    cursor:pointer;
+    display:inline-block;
+    font-size:.9em;
+    font-weight:bolder;
+    height:1em;
+    line-height:1;
+    margin:0 .15em 0 .15em;
+    min-width:1.5em;
+    padding:0 .5em;
+    position:relative;
+    text-decoration:none;
+    top:-.1em;
+    transition-duration:.25s;
+    transition-property:background-color color;
+    transition-timing-function:ease;
+    vertical-align:middle;z-index:5
+}
+
+body.dark-mode #webmentions h2 {
+    background: #121212;
+}
+
+body.dark-mode #webmentions .comments li .name {
+    color: #f5f5f5;
+  }
