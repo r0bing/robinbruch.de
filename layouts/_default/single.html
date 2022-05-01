@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+  {{ partial "head.html" . }}
+<body>
+<main>
+    {{ partial "header.html" . }}
+  <section>
+
+      {{ if eq .Type "posts" }}
+      <h2 align="center" itemprop="name headline">{{ .Title }}</h2>
+      <p class="meta" align="center">
+        <time itemprop="datePublished" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ .Date.Format "2." }} {{ index .Site.Data.monate (.Date.Format "1")}} {{ .Date.Format "2006"}}</time> 
+        </p>
+      {{ end }}
+
+      <span itemprop="articleBody">
+      {{ .Content }}
+      {{ partial "tags.html" .}}
+      <br>
+      <div id="webmentions"></div>
+      </span>
+       
+
+    </section>
+    {{ partial "footer.html" . }}
+  </main>
+  <script src="/js/littlefoot.js" type="application/javascript"></script>
+  <script type="application/javascript"> littlefoot.littlefoot()</script>
+  <script src="/js/webmention.min.js" async></script>
+
+  <article class="h-entry" style="display:none;">
+    <p class="author h-card"></p>
+    <h1 class="post-title p-name" itemprop="name headline">{{ .Title }}</h1>
+    <span>
+      <a class="u-url" href="{{ .Permalink }}"> 
+      <time class="dt-published">{{ .Date }}</time></a> 
+    </span>
+    <span>veröffentlicht von</span> 
+    <a class="p-author h-card" href="https://robinbruch.de/">Robin Bruch</a>
+    <p class="p-summary"> {{.Description}} </p>
+    <div class="post-content clearfix e-content" itemprop="articleBody"> {{ .Content }} </div>
+    </article>
+</body>
+</html>

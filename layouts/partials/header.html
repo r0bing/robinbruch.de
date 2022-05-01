@@ -1,0 +1,25 @@
+  <header>
+    <nav>
+      {{ $current := . }}
+  <ul>{{ range .Site.Menus.main }}
+    <li>
+      {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+      {{ $active = or $active (eq .Name $current.Title) }}
+      {{ $active = or $active (and (eq .Name "Index") (eq $current.Section "posts")) }}
+      {{ $active = or $active (and (eq .Name "Projects") (eq $current.Section "projects")) }}
+      <a href="{{ .URL }}" {{ if $active }}aria-current="page"{{ end }}>{{ .Name }}</a>
+    </li>
+  {{ end }}
+
+    <li>
+      <a rel="me" href="https://social.tchncs.de/@r0bin" target="_blank" rel="noopener noreferrer">{{ partial "inline-svg" "mastodon"}}</a>
+      <a rel="me" href="https://pixelfed.de/@robin" target="_blank" rel="noopener noreferrer">{{ partial "inline-svg" "pixelfed"}}</a>
+      {{ partial "darkmode.html" . }}
+    </li>
+  </ul>
+    </nav>
+      <a rel="me" href="https://github.com/r0bing" target="_blank" rel="noopener noreferrer"></a>
+  </header>
+  <hr>
+
+
