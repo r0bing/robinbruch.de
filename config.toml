@@ -68,7 +68,7 @@ minify = true
 
 [menu]
   [[menu.main]]
-    identifier = "text"
+    identifier = "Index"
     name       = "Text"
     url        = "/"
     weight     = -111

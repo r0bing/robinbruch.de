@@ -173,13 +173,14 @@ html {
 .inline-svg {
   display: inline-block;
   vertical-align: middle;
+  margin: 0 -5px;
 
   svg {
     width: 1em;
     height: 1em;
     fill: currentColor;
     display: inline-block;
-	
+	margin: 0 10px;
   }
 }
 
