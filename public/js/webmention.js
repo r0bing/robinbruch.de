@@ -296,16 +296,15 @@ A more detailed example:
                 }
             });
 
-            // format the comment-type things
-            if (comments.length > 0) {
-                html += formatComments(dedupe(comments));
-            }
-
             // format the other reactions
             if (collects.length > 0) {
                 html += formatReactions(dedupe(collects));
             }
 
+            // format the comment-type things
+            if (comments.length > 0) {
+                html += formatComments(dedupe(comments));
+            }
             container.innerHTML = html;
         });
     });
