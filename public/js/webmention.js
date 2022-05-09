@@ -164,6 +164,18 @@ A more detailed example:
         return filtered;
     }
 
+    function formatReactions(reacts) {
+        var html = '<h2>' + reacts.length + ' Reaktion' +
+            (reacts.length > 1 ? 'en' : '') +
+            '</h2><ul class="reacts">';
+
+        reacts.forEach(function(r) {
+            html += reactImage(r);
+        });
+
+        return html;
+    }
+
     function formatComments(comments) {
         var html = '<h2>' + comments.length + ' Kommentar' +
             (comments.length > 1 ? 'e' : '') +
@@ -212,18 +224,6 @@ A more detailed example:
             html += '</li>';
         });
         html += '</ul>';
-
-        return html;
-    }
-
-    function formatReactions(reacts) {
-        var html = '<h2>' + reacts.length + ' Reaktion' +
-            (reacts.length > 1 ? 'en' : '') +
-            '</h2><ul class="reacts">';
-
-        reacts.forEach(function(r) {
-            html += reactImage(r);
-        });
 
         return html;
     }
