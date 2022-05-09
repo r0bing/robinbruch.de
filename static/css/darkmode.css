@@ -104,3 +104,6 @@ body.dark-mode #webmentions h2 {
 body.dark-mode #webmentions .comments li .name {
     color: #f5f5f5;
   }
+
+body.dark-mode #webmentions .comments li .text {
+    color: #f5f5f5;
