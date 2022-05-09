@@ -43,6 +43,7 @@
 #webmentions a.reaction img {
     margin-right: -1ex;
     border-radius: 25%;
+    width: 35px;
 }
 
 #webmentions a.reaction sub {
