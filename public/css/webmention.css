@@ -6,6 +6,7 @@
 }
 
 #webmentions .comments {
+    white-space: normal;
 }
 
 #webmentions h2 {
@@ -40,7 +41,6 @@
 }
 
 #webmentions a.reaction img {
-    max-height: 1.3em;
     margin-right: -1ex;
     border-radius: 25%;
 }
@@ -50,9 +50,10 @@
 }
 
 #webmentions .comments li {
-    white-space: nowrap;
+    white-space: normal;
     text-overflow: ellipsis;
     overflow: hidden;
+    margin: 10px;
 }
 
 #webmentions .comments li .text {

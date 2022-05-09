@@ -22,41 +22,40 @@
     <br>
     <hr>
     <br>
+    <div id="webmentions"></div>
+    <details>
+      <summary><strong>Kommentieren</strong></summary>
       {{ if .Params.syndication_urls }}
-  <div class="syndication">
-    <a href="https://brid.gy/publish/mastodon"></a>
-    <a href="https://brid.gy/publish/twitter"></a>
-    {{ partial "inline-svg" "link"}}
-      Solltest du etwa einen <a href="https://twitter.com/r0bingnus" target="_blank" rel="noopener noreferrer">Twitter</a>- oder gar <a href="https://social.tchncs.de/@r0bin" target="_blank" rel="noopener noreferrer">Mastodon</a>-Account haben, findest du diesen Text auch dort, sodass du ihn ebenfalls da kommentieren kannst:
-      {{- range $index, $url := .Params.syndication_urls }}
-        {{- $parsed_url := urls.Parse $url -}}
-        {{- if $index }}, {{- end }}
-        <a class="u-syndication" href="{{ $url }}" rel="syndication">{{ $parsed_url.Host }}</a>
-      {{- end }}
-  </div>
-    
-    <br>
-    {{ partial "inline-svg" "pen"}}
-      Und wenn du keinen Account besitzt, aber trotzdem gern kommentieren würdest, dann hilft dir <a href="https://commentpara.de/" target="_blank" rel="noopener noreferrer">CommentPara</a> dabei.
-    <br>
-    {{ else }}
-  <div class="nosyndication">
-    {{ partial "inline-svg" "link"}}
-      Dieser Text kann noch nicht diskutiert werden.
-  </div>
+      <div class="syndication">
+        <a href="https://brid.gy/publish/mastodon"></a>
+        <a href="https://brid.gy/publish/twitter"></a>
+        {{ partial "inline-svg" "link"}}
+          Solltest du etwa einen <a href="https://twitter.com/r0bingnus" target="_blank" rel="noopener noreferrer">Twitter</a>- oder gar <a href="https://social.tchncs.de/@r0bin" target="_blank" rel="noopener noreferrer">Mastodon</a>-Account haben, findest du diesen Text ebenda, sodass du ihn dort kommentieren kannst:
+          {{- range $index, $url := .Params.syndication_urls }}
+            {{- $parsed_url := urls.Parse $url -}}
+            {{- if $index }}, {{- end }}
+            <a class="u-syndication" href="{{ $url }}" rel="syndication">{{ $parsed_url.Host }}</a>
+          {{- end }}
+      </div>
+        
+        <br>
+        {{ partial "inline-svg" "pen"}}
+          Und wenn du keinen Account besitzt, aber trotzdem gern kommentieren würdest, hilft dir <a href="https://commentpara.de/" target="_blank" rel="noopener noreferrer">CommentPara</a>.
+        <br>
+        {{ else }}
+      <div class="nosyndication">
+        {{ partial "inline-svg" "link"}}
+          Dieser Text kann noch nicht diskutiert werden.
+      </div>
+    </details>
 {{ end }}
-
-    <br>
-<div id="webmentions"></div>
 </span>
-</details>
-
     </section>
     {{ partial "footer.html" . }}
   </main>
   <script src="/js/littlefoot.js" type="application/javascript"></script>
   <script type="application/javascript"> littlefoot.littlefoot()</script>
-  <script src="/js/webmention.js" wordcount="500" page-url="https://robinbruch.de" add-url="https://rbrch.de" async></script>
+  <script src="/js/webmention.js" sort-by=created page-url="https://robinbruch.de" add-url="https://rbrch.de" async></script>
 
   <article hidden class="h-entry">
     <p class="author h-card"></p>
