@@ -184,6 +184,11 @@ html {
  }
 }
 
+i.inline-svg:hover, i.inline-svg:focus, i.inline-svg::selection {
+	background-color: #fff;
+	color: #353535;
+}
+
 @media (max-width: 414px) {
 	.posts li {
 		display:grid;
