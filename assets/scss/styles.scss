@@ -184,7 +184,7 @@ html {
  }
 }
 
-i.inline-svg:hover {
+i.inline-svg:hover, i.inline-svg:focus, i.inline-svg::selection {
 	background-color: #fff;
 	color: #353535;
 }
