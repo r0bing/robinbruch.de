@@ -1,5 +1,5 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Robin Bruch – schreibt …</title><description>Robin Bruch schreibt Texte über Internet, Kultur und Gesellschaft, aber auch über Wichtiges.</description><link>/</link><language>de</language><copyright>Copyright 2022, Robin Bruch</copyright><lastBuildDate>"2022-07-11 23:00:00 +0200 CEST"</lastBuildDate><generator>Hugo - gohugo.io</generator><docs>http://cyber.harvard.edu/rss/rss.html</docs><atom:link href="https://robinbruch.de/atom.xml" rel="self" type="application/atom+xml"/><item><title>Ein Lo-Fi-Girl und die Singularität</title><link>/2022/07/11/ein_lo-fi-girl_und_die_singularitaet/</link><description>&lt;p>Die &lt;em>technologische Singularität&lt;/em> verspricht Albträume. Keine, die in Science-Fiction-Filmen oder Videospielen vorkommen. Also jene, in denen Menschen im Krieg mit allmächtigen, superintelligenten Robotern stehen, nein. Vielmehr geht es um Albträume, in denen die Intensivierung und Mutation schon heutiger Probleme innewohnt: Sozioökonomische Ungleichheit, Rassismus, Sexismus, Klassismus und andere Formen der Unterdrückung werden durch die Singularität noch verstärkt werden.&lt;/p>
-&lt;figure>&lt;a href="https://luchopoletti.com/">&lt;img src="/img/texts/singularitaet/singularity_is_here.png"
+&lt;figure>&lt;a href="https://luchopoletti.com/">&lt;img src="/img/texts/singularitaet/singularity_is_here.webp"
 alt="Das Artwork ist voll mit Zitaten von &amp;#39;Sophia the robot&amp;#39; über die technologische Singularität."/>&lt;/a>&lt;figcaption>
 &lt;h4>The Singularity is here © Lucho Poletti&lt;/h4>
 &lt;/figcaption>
@@ -22,7 +22,7 @@ alt="Das Artwork ist voll mit Zitaten von &amp;#39;Sophia the robot&amp;#39; üb
 &lt;p>Verfolgen wir also weiter unseren Weg, so gehe ich davon aus, dass Profit und Marktanteile auch ferner über allem stehen; dass die Gefahr bestünde, dass unter staatlicher Kontrolle künftige Technologien und Überwachungssysteme zusammenwachsen. Kurz: Die Technologie treibt die Ungleichheiten und Ungerechtigkeiten von morgen voran.&lt;/p>
 &lt;p>Allein diese beunruhigenden Vermutungen, sollten uns dazu veranlassen, die politischen und moralischen Dimensionen unserer Technologien zu überdenken und die Motive zu hinterfragen, die hinter neuen stehen. Denn die unkritische Annahme jeder &lt;em>innovativen&lt;/em> Technologie bedeutet eine stillschweigende Zustimmung zu eben jenen Marktsystemen und Technokratien, die ungleiche Bedingungen verstärken. Die Annahme des Konzepts der Singularität bedeutet nicht anderes als eine Kapitulation gegenüber unterdrückerischen Systemen.&lt;/p>
 &lt;p>Jessas, welch Kulturpessimismus! Mir geht es in diesem Text aber vielmehr um eine Alternative; um den Vorschlag einer alternativen Singularität, die die Vorstellung eines singulären, universellen Ereignisses unterläuft. Eine Alternative, die mich hoffnungsvoller stimmt. Eine Alternative, die unvollkommener, anfälliger, insgesamt offener ist. Also ein wenig wie Lo-Fi-Musik.&lt;/p>
-&lt;figure>&lt;a href="https://www.youtube.com/c/LofiGirl">&lt;img src="/img/texts/singularitaet/lofi_girl.png"
+&lt;figure>&lt;a href="https://www.youtube.com/c/LofiGirl">&lt;img src="/img/texts/singularitaet/lofi_girl.webp"
 alt="Ein Screenshot des Lo-Fi-Girl-Streams auf YouTube."/>&lt;/a>&lt;figcaption>
 &lt;h4>Das Lo-fi-Girl.&lt;/h4>
 &lt;/figcaption>
@@ -497,7 +497,7 @@ Die vorliegende Analyse stammt aus Juli 2018 und vergleicht die Sprache der Onli
 &lt;h4 id="form-und-ästhetik">Form und Ästhetik &lt;a href="#form-und-%c3%a4sthetik" class="hash">#&lt;/a>&lt;/h4>
 &lt;p>Seit der Gründung im Herbst 1994 wandelt sich das Design und Layout der Homepage immer wieder. &lt;!-- raw HTML omitted -->&lt;sup id="fnref:22">&lt;a href="#fn:22" class="footnote-ref" role="doc-noteref">22&lt;/a>&lt;/sup>&lt;!-- raw HTML omitted --> Die letzte Designänderung in Form eines sogenannten „Rebrush“ fand im September 2016 statt.&lt;/p>
 &lt;p>Beim Aufrufen der Startseite öffnet der Header mit dem typischen &lt;em>Spiegel&lt;/em>-Logo, das in einem roten und nicht typisch orangenen Ton gehalten wird. Daran schließen zwei Sprungstellen an, die in die zentralen Bereiche führen: Einmal zum digitalen Wochenmagazin &lt;em>Der Spiegel&lt;/em> sowie zur Videoseite &lt;em>Spiegel TV&lt;/em> mit Nachrichtenvideos, Dokumentationen und Spielfilmen. Die erste Zeile endet mit einer Suchfunktion in Gestalt einer Lupe und einem Anmeldeknopf. Direkt darunter befindet sich die Navigationsleiste, die die bekannten Rubriken aufbietet, wie beispielsweise „Politik“, „Panorama“ oder „Wissenschaft“. Sie folgt dem Rezipienten, auch wenn der sich in einem unteren Teil der Seite aufhält. In der letzten Zeile des Header ist linksbündig das Datum vermerkt, wobei rechtsbündig jeweilige Links zu „Schlagzeilen“, „Wetter“, „DAX“, „TV-Programm“ und „Abo“ aufgeführt werden. Doch den prominentesten Platz der Seite nimmt das Aufmacherfoto ein. Inhaltlich wird alles auf eine Karte gesetzt, denn weitere Illustrations- oder Foto-Elemente, auf die der Leser ausweichen kann, gibt es nicht. Der weiße Hintergrund verstärkt die Konzentrierung auf den Opener. Daran ist zu erkennen, dass die erste Bildschirmportion nicht darauf ausgelegt ist, ein unbedingt längeres Verweilen am Seitenkopf zu initiieren. &lt;!-- raw HTML omitted -->&lt;sup id="fnref:23">&lt;a href="#fn:23" class="footnote-ref" role="doc-noteref">23&lt;/a>&lt;/sup>&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;figure>&lt;img src="/img/texts/spiegel_spon/spon_opener.png"/>&lt;figcaption>
+&lt;figure>&lt;img src="/img/texts/spiegel_spon/spon_opener.webp"/>&lt;figcaption>
 &lt;h4>Screenshot Spiegel Online – Opener&lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
@@ -536,7 +536,7 @@ Das Nachrichtenportal bietet dem Leser zunächst einen guten und geordneten Übe
 &lt;p>Hans-Jürgen Schlamp&lt;/p>
 &lt;/blockquote>
 &lt;p>Nun ist auch deutlich eine Tendenz erkennbar, denn der Autor beschreibt das Tier als „wütendes Wildschwein“ oder „wuchtige[s] Wildtier“, während der „ältere[ ] Mann“ nur seine Hunde schützen wollte. Pilzsucher streifen deshalb nur noch mit einer Flinte durch den Wald. Die Sprache ist mittlerweile auf der Ebene des Etikettierens angelangt. Der Leser entwickelt durch die tendenziösen Ausführungen eine gewisse Antipathie dem Tier gegenüber. Untermauert wird dies durch eine Fotostrecke, die Jäger mit ihren Gewehren bei der Jagd zeigt.&lt;/p>
-&lt;figure>&lt;img src="/img/texts/spiegel_spon/spon_fotostrecke.png"/>&lt;figcaption>
+&lt;figure>&lt;img src="/img/texts/spiegel_spon/spon_fotostrecke.webp"/>&lt;figcaption>
 &lt;h4>Screenshot Spiegel Online – Fotostrecke&lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
@@ -554,7 +554,7 @@ Das Nachrichtenportal bietet dem Leser zunächst einen guten und geordneten Übe
 &lt;h4 id="form-und-ästhetik-1">Form und Ästhetik &lt;a href="#form-und-%c3%a4sthetik-1" class="hash">#&lt;/a>&lt;/h4>
 &lt;p>Die jugendliche Ausrichtung der Thematik schlägt sich auch in der Gestaltung der Website nieder. Zunächst öffnet &lt;em>bento&lt;/em> mit einem farbigen, kreisrunden Logo, daran schließt der Name des Blogs an. Auf der rechten Seite verweisen Symbole von Facebook und Instagram direkt auf die jeweilige Plattform. Unmittelbar darunter befindet sich eine horizontale und statische, also eine sich nicht verändernde Navigationsbar, die sich nicht in klassische Ressorts unterteilt, sondern in Kategorien. Folgt man einer solchen Kategorie, findet man sich in einer Art Archiv wieder, in dem dann beispielsweise alle Artikel zum Thema „Meinung“ gesammelt werden. Die Leiste endet mit „Mehr“, worauf sich bei einem Klick darauf eine vertikale Dropdown-Liste öffnet. Dort werden eine Suchleiste sowie nochmals alle Kategorien als auch die sozialen Netzwerke aufgeführt. Darunter werden 16 Schlagworte organisiert, die am ehesten als Ressort-Ersatz fungieren: Artikel, die unter „Grün“ zu finden sind, thematisieren Nachhaltigkeit, wohingegen es bei „Queer“ um Menschen geht, die in der Öffentlichkeit von der gesellschaftlichen Norm abweichen, hauptsächlich bezüglich der Sexualität.&lt;/p>
 &lt;p>&lt;em>bento&lt;/em> ist bunt, begegnet dem Leser aber zu Beginn ähnlich wie die Startseite von &lt;em>Spiegel Online&lt;/em>. Dadurch, dass das Aufmacherfoto auch hier den Großteil des Bildschirms einnimmt, entstehen Konsequenzen, die schon beim Mutterverlag beobachtet wurden. Unter dem Opener werden meist zwischen sechs und acht Beiträge mithilfe von Fotos präsentiert, die in einer Kacheloptik arrangiert sind, wie es auch im sozialen Netzwerk Instagram geschieht. Die Überschrift wird bei manchen Bildern in weißer Farbe und einem fetten Schriftsatz im unteren Bildbereich integriert. Manche Beiträge aber, erinnern stark an ein Polaroid-Bild. Unter dem eigentlichen Beitragsfoto ist eine weiße Fläche, die mit der Überschrift und einem möglichen Vorspann in schwarz beschriftet wird.&lt;/p>
-&lt;figure>&lt;img src="/img/texts/spiegel_spon/bento_opener.png"/>&lt;figcaption>
+&lt;figure>&lt;img src="/img/texts/spiegel_spon/bento_opener.webp"/>&lt;figcaption>
 &lt;h4>Screenshot bento – Opener&lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
@@ -562,7 +562,7 @@ Das Nachrichtenportal bietet dem Leser zunächst einen guten und geordneten Übe
 &lt;p>Scrollt man weiter nach unten, werden unter einem Flammen-Emoji und dem Ausdruck „Trending“, die vier meistempfohlenen Artikel der letzten 24 Stunden angzeigt. Es folgen danach die Kategorien „Gerechtigkeit“, „Storys“, „SoBinIchHalt“, „Streaming“, „Videos“, „Tech“, „Wir müssen reden“, „Grün“ und „Shopping-Listen“, die immer drei oder vier Artikel beinhalten.&lt;/p>
 &lt;p>Der Vergleich des Aufbaus der verschiedenen Beiträge gestaltet sich mitunter als schwierig, da es nur sehr wenige formale Übereinstimmungen gibt. Die Varianz der Schlagzeilen ist hoch, denn sie tauchen als kurze und prägnante Überschriften auf, allerdings auch als längere, ausformulierte Sätze. Teaser sind teilweise vorhanden, jedoch nicht bei jedem Artikel. Fotos, die den Artikel auf der Startseite repräsentieren, fehlen stellenweise komplett im Artikel selbst, sind aber dagegen bei anderen prominent im Header zu finden.&lt;/p>
 &lt;p>Die größte Gemeinsamkeit der Beiträge besteht in der Reihenfolge der Informationen zum Text. Zuerst ordnet eins der 16 Themen den Text einem Ressort zu. Danach folgen Titel, Datum und Uhrzeit der Veröffentlichung inklusive einer etwaigen Aktualisierung, Möglichkeiten zum Teilen auf Facebook und Twitter, falls vorhanden ein Vorspann und Bild wie auch der Name der Autorin/des Autors/der Autoren. Zum Ende des Artikels werden Hashtags aufgeführt, die den Text einordnen sowie sechs weitere Beiträge, die thematisch nicht mit dem eigentlichen Text verwandt sein müssen. Unter diesen sechs befinden sich zwei Beiträge, die als „Anzeige“ kenntlich gemacht sind. Auch hierbei handelt es sich um Native Ads, die ebenso bei &lt;em>SPON&lt;/em> zum Einsatz kommen.&lt;/p>
-&lt;figure>&lt;img src="/img/texts/spiegel_spon/bento_native-ads.png"/>&lt;figcaption>
+&lt;figure>&lt;img src="/img/texts/spiegel_spon/bento_native-ads.webp"/>&lt;figcaption>
 &lt;h4>Screenshot bento – Native Ads&lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
@@ -584,7 +584,7 @@ Das Nachrichtenportal bietet dem Leser zunächst einen guten und geordneten Übe
 &lt;p>Lex Marmor&lt;/p>
 &lt;/blockquote>
 &lt;p>Interessant sind in diesem Abschnitt die hervorgehobenen Markierungen im Text. Sie erleichtern dem Rezipienten das schnelle Überfliegen, das Scannen des Artikels. Ohne den restlichen Text gelesen zu haben, erkennt man eine deutliche Tendenz über das innere Seelenleben des Autors. Dies gipfelt in einem groß, rot, fett und kursiv geschriebenen Zitat, das sich deutlich vom verbliebenen Text abgrenzt:&lt;/p>
-&lt;figure>&lt;img src="/img/texts/spiegel_spon/bento_zitat.png"/>&lt;figcaption>
+&lt;figure>&lt;img src="/img/texts/spiegel_spon/bento_zitat.webp"/>&lt;figcaption>
 &lt;h4>Screenshot bento – Zitat&lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
