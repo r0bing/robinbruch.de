@@ -7,15 +7,16 @@
     <section>
 
       <ul class="posts">
-        {{ range (.Paginate ( where .Site.RegularPages "Section" "posts" ).ByDate.Reverse).Pages }}
-          {{ if ne .Kind "section" }}
+        {{ range ( .Site.GetPage "section" "journal" ).Pages }}
+        {{ if ne .Kind "section" }}
           <li itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
             <a href="{{ .Permalink }}" title="{{ .Title }}" itemprop="name url">{{ .Title }}</a>
-            <hr>
+           
            <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "02-01-2006" .Date }}</time>
           </li>
-          {{ end }}
+          {{ .Content }}
         {{ end }}
+      {{ end }}
       </ul>
     </section>
 

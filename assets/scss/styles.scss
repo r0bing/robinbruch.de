@@ -96,11 +96,22 @@ header a, footer a {
     text-decoration: none;
 }
 
-header ul, footer ul {
+header ul {
+	justify-content: space-between;
+	display:initial;
+}
+
+.socialmedia {
+    justify-content: space-between;
+	display: flex;
+	float:inline-end;
+	margin-top:auto;
+}
+
+footer ul {
     justify-content: space-between;
     display: flex;
 }
-
 
 [aria-current="page"] {
 	//font-weight: bold;

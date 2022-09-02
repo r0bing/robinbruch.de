@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="de">
+  {{ partial "head.html" . }}
+<body>
+<main>
+    {{ partial "header.html" . }}
+  <section>
+
+      {{ if eq .Type "journal" }}
+      <h2 align="center" itemprop="name headline">{{ .Title }} </h2>
+      <p class="meta" align="center">
+        <time itemprop="datePublished" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ .Date.Format "2." }} {{ index .Site.Data.monate (.Date.Format "1")}} {{ .Date.Format "2006"}} </time> 
+      
+      {{ end }}
+
+      <span itemprop="articleBody">
+      {{ .Content }}
+      <br>
+      
+    <hr>
+    <div id="webmentions"></div>
+    <br>
+    <details>
+      <summary><strong>Kommentieren</strong></summary>
+      {{ if .Params.syndication_urls }}
+      <div class="syndication">
+        <a href="https://brid.gy/publish/mastodon"></a>
+        <a href="https://brid.gy/publish/twitter"></a>
+        {{ partial "inline-svg" "link"}}
+          Solltest du etwa einen <a href="https://twitter.com/r0bingnus" target="_blank" rel="noopener noreferrer">Twitter</a>- oder gar <a href="https://social.tchncs.de/@r0bin" target="_blank" rel="noopener noreferrer">Mastodon</a>-Account haben, findest du diesen Text ebenda, sodass du ihn dort kommentieren kannst:
+          {{- range $index, $url := .Params.syndication_urls }}
+            {{- $parsed_url := urls.Parse $url -}}
+            {{- if $index }}, {{- end }}
+            <a class="u-syndication" href="{{ $url }}" rel="syndication">{{ $parsed_url.Host }}</a>
+          {{- end }}
+      </div>
+        
+        <br>
+        {{ partial "inline-svg" "pen"}}
+          Und wenn du keinen Account besitzt, aber trotzdem gern kommentieren würdest, hilft dir <a href="https://commentpara.de/" target="_blank" rel="noopener noreferrer">CommentPara</a>.
+        <br>
+        {{ else }}
+      <div class="nosyndication">
+        {{ partial "inline-svg" "link"}}
+          Dieser Beitrag kann noch nicht diskutiert werden.
+      </div>
+    </details>
+{{ end }}
+</span>
+    </section>
+    {{ partial "footer.html" . }}
+  </main>
+  <script src="/js/littlefoot.js" type="application/javascript"></script>
+  <script type="application/javascript"> littlefoot.littlefoot()</script>
+  <script src="/js/webmention.js" sort-by=published page-url="https://robinbruch.de" add-url="https://rbrch.de" async></script>
+
+  <article hidden class="h-entry">
+    <p class="author h-card"></p>
+    <h1 class="post-title p-name" itemprop="name headline">{{ .Title }}</h1>
+    <span>
+      <a class="u-url" href="{{ .Permalink }}"> 
+      <time class="dt-published">{{ .Date }}</time></a> 
+    </span>
+    <span>veröffentlicht von</span> 
+    <a class="p-author h-card" href="https://robinbruch.de/">Robin Bruch</a>
+    <p class="p-summary"> {{.Description}} </p>
+    <div class="post-content clearfix e-content" itemprop="articleBody"> {{ .Content }} </div>
+    </article>
+</body>
+</html>
