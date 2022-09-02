@@ -204,14 +204,9 @@ i.inline-svg:hover, i.inline-svg:focus, i.inline-svg::selection {
 	.posts li {
 		display:grid;
 	}
-
+	
 	footer li {
 		display:grid;
-	}
-
-	.inline-svg {
-		display: inline-block;
-		vertical-align: middle;
 	}
 }
 
@@ -226,10 +221,6 @@ i.inline-svg:hover, i.inline-svg:focus, i.inline-svg::selection {
 	}
 	footer li {
 		font-size: small;
-	}
-	.inline-svg {
-		display: inline-block;
-		vertical-align: middle;
 	}
 
 }
