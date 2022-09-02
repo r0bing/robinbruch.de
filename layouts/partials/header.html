@@ -8,7 +8,7 @@
       {{ $active = or $active (and (eq .Name "journal") (eq $current.Section "journal")) }}
       {{ $active = or $active (and (eq .Name "essays") (eq $current.Section "essays")) }} 
       <a href="{{ .URL }}" {{ if $active }}aria-current="page"{{ end }}>{{ .Name }}</a>
-    </li>&nbsp;&nbsp;&nbsp;
+    </li>&nbsp;
   {{ end }}
   </ul>
   <ul class="socialmedia">
