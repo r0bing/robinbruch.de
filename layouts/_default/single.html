@@ -6,7 +6,7 @@
     {{ partial "header.html" . }}
   <section>
 
-      {{ if eq .Type "posts" }}
+      {{ if eq .Type "essays" }}
       <h2 align="center" itemprop="name headline">{{ .Title }}</h2>
       <p class="meta" align="center">
         <time itemprop="datePublished" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ .Date.Format "2." }} {{ index .Site.Data.monate (.Date.Format "1")}} {{ .Date.Format "2006"}}</time> 

@@ -46,7 +46,8 @@ minify = true
   twitter = ""
 
 [permalinks]
-  posts = "/:year/:month/:day/:filename"
+  essays = "/:filename"
+  journal = "/:year/:month/:day/:filename"
   pages = "/:slug"
 
 [outputs]
@@ -67,10 +68,16 @@ minify = true
   priority = 0.5
 
 [menu]
-  [[menu.main]]
-    identifier = "Index"
-    name       = "Text"
+ [[menu.main]]
+    identifier = "journal"
+    name       = "journal"
     url        = "/"
+    weight     = -112
+
+[[menu.main]]
+    identifier = "essays"
+    name       = "essays"
+    url        = "/essays"
     weight     = -111
 
   [[menu.footer]]

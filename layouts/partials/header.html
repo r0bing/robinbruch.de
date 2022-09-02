@@ -5,19 +5,21 @@
     <li>
       {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
       {{ $active = or $active (eq .Name $current.Title) }}
-      {{ $active = or $active (and (eq .Name "Index") (eq $current.Section "posts")) }}
-      {{ $active = or $active (and (eq .Name "Projects") (eq $current.Section "projects")) }}
+      {{ $active = or $active (and (eq .Name "journal") (eq $current.Section "journal")) }}
+      {{ $active = or $active (and (eq .Name "essays") (eq $current.Section "essays")) }} 
       <a href="{{ .URL }}" {{ if $active }}aria-current="page"{{ end }}>{{ .Name }}</a>
-    </li>
+    </li>&nbsp;&nbsp;&nbsp;
   {{ end }}
+  </ul>
+  <ul class="socialmedia">
     <li>
       <a rel="me" href="https://social.tchncs.de/@r0bin" target="_blank" rel="noopener noreferrer" title="Mastodon – zu meinen Trööts.">{{ partial "inline-svg" "mastodon"}}</a>
       <a rel="me" href="https://pixelfed.de/@robin" target="_blank" rel="noopener noreferrer"title="Pixelfed – zu meinen Bildern.">{{ partial "inline-svg" "pixelfed"}}</a>
       {{ partial "darkmode.html" . }}
+      <a rel="me" href="https://github.com/r0bing" target="_blank" rel="noopener noreferrer"></a>
+      <a rel="me" href="https://twitter.com/r0bingnus" target="_blank" rel="noopener noreferrer"></a>
     </li>
   </ul>
     </nav>
-      <a rel="me" href="https://github.com/r0bing" target="_blank" rel="noopener noreferrer"></a>
-      <a rel="me" href="https://twitter.com/r0bingnus" target="_blank" rel="noopener noreferrer"></a>
   </header>
   <hr>
