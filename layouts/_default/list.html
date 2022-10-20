@@ -15,12 +15,13 @@
            <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "02-01-2006" .Date }}</time>
           </li>
           {{ .Content }}
+          <hr class="journal">
         {{ end }}
       {{ end }}
       </ul>
     </section>
 
-    {{ partial "footer.html" . }}
+    {{ partial "footerjournal.html" . }}
   </main>
 </body>
 </html>
