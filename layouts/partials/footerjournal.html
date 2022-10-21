@@ -1,0 +1,26 @@
+<footer class="journal">
+    <nav>
+      {{ $current := . }}
+  <ul>{{ range .Site.Menus.footer }}
+    <li>
+      {{ $active := or ($current.IsMenuCurrent "footer" .) ($current.HasMenuCurrent "footer" .) }}
+      {{ $active = or $active (eq .Name $current.Title) }}
+      {{ $active = or $active (and (eq .Name "Impressum") (eq $current.Section "impressum")) }}
+      {{ $active = or $active (and (eq .Name "Datenschutz") (eq $current.Section "datenschutz")) }}
+      <a href="{{ .URL }}" {{ if $active }}aria-current="page"{{ end }}>{{ .Name }}</a>
+    </li>
+  {{ end }}
+    <li>
+      <a href="/ich/">Robin Bruch</a> © {{ dateFormat "2006" now }}
+    </li>
+  </ul>
+    </nav>
+    <div class="h-card vcard" style="display:none";>
+    <a class="p-name u-url url author metatag" href={{ .Site.BaseURL }} rel="me"> {{ .Site.Author.name }} </a> / 
+    <a class="u-email" rel="me" href="mailto:hallo@robinbruch.de"> </a>
+    <a class="p-tel" rel="me">+4915678452790 </a>
+    <div class="p-note">Robin Bruch schreibt Texte über Internet, Kultur und Gesellschaft, aber auch über Wichtiges.</div>
+    <img class="u-photo" src="https://robinbruch.de/img/ich/ich.jpg" alt="Photo of Robin Bruch" /> 
+ </p>
+</div>
+</footer>
