@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "de-de"
-title = "Robin Bruch – schreibt …"
+title = "Robin Bruch"
 disableKinds = ["section", "categories"]
 disqusShortname = ""
 pygmentsCodeFences = false
