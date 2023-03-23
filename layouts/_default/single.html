@@ -10,21 +10,21 @@
       <h2 align="center" itemprop="name headline">{{ .Title }}</h2>
       <p class="meta" align="center">
         <time itemprop="datePublished" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ .Date.Format "2." }} {{ index .Site.Data.monate (.Date.Format "1")}} {{ .Date.Format "2006"}}</time> 
-        </p>
+      </p>
+      <p class="meta" align="center">
+      {{ partial "tags.html" .}}
+      </p>
       {{ end }}
 
       <span itemprop="articleBody">
       {{ .Content }}
-      <br>
-      {{ partial "tags.html" .}}
       
-    <br>
     <br>
     <hr>
     <div id="webmentions"></div>
     <br>
     <details>
-      <summary><strong>Kommentieren</strong></summary>
+      <summary><b>Kommentieren</b></summary>
       {{ if .Params.syndication_urls }}
       <div class="syndication">
         <a href="https://brid.gy/publish/mastodon"></a>

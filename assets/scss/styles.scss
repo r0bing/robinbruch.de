@@ -74,8 +74,7 @@ img {
 }
 
 figure {
-	text-align: right;
-	font-style: italic;
+	text-align: center;
 	font-size: smaller;
 	margin: 0.5em;
 	padding: 0.5em;
@@ -250,3 +249,17 @@ i.inline-svg:hover, i.inline-svg:focus, i.inline-svg::selection {
 @media (min-width: 568px) {
 
 }
+
+details summary { 
+	cursor: pointer;
+	text-align: center;
+  }
+  
+  details summary > * {
+	display: inline;
+  }
+
+details > p {
+	font-size: small;
+	font-family: Lucida Console, monospace;
+  }
