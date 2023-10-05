@@ -33,7 +33,7 @@ minify = true
   description = "Robin Bruch schreibt Texte über Internet, Kultur und Gesellschaft, aber auch über Wichtiges."
   subtitle = "schreibt …"
   author = "Robin Bruch"
-  copyright = "Robin Bruch © 2022"
+  copyright = "Robin Bruch © 2023"
   logo = ""
 
 [frontmatter]
