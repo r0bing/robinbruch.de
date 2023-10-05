@@ -28,9 +28,8 @@
       {{ if .Params.syndication_urls }}
       <div class="syndication">
         <a href="https://brid.gy/publish/mastodon"></a>
-        <a href="https://brid.gy/publish/twitter"></a>
         {{ partial "inline-svg" "link"}}
-          Solltest du etwa einen <a href="https://twitter.com/r0bingnus" target="_blank" rel="noopener noreferrer">Twitter</a>- oder gar <a href="https://social.tchncs.de/@r0bin" target="_blank" rel="noopener noreferrer">Mastodon</a>-Account haben, findest du diesen Text ebenda, sodass du ihn dort kommentieren kannst:
+          Solltest du etwa einen <a href="https://bsky.app/profile/rbrch.de" target="_blank" rel="noopener noreferrer">Bluesky</a>- oder <a href="https://social.tchncs.de/@r0bin" target="_blank" rel="noopener noreferrer">Mastodon</a>-Account haben, hast du dort die Gelegenheit, ihn zu kommentieren:
           {{- range $index, $url := .Params.syndication_urls }}
             {{- $parsed_url := urls.Parse $url -}}
             {{- if $index }}, {{- end }}
@@ -40,7 +39,7 @@
         
         <br>
         {{ partial "inline-svg" "pen"}}
-          Und wenn du keinen Account besitzt, aber trotzdem gern kommentieren würdest, hilft dir <a href="https://commentpara.de/" target="_blank" rel="noopener noreferrer">CommentPara</a>.
+          Und wenn du keinerlei Accounts besitzt, aber trotzdem gern kommentieren möchtest, hilft dir <a href="https://commentpara.de/" target="_blank" rel="noopener noreferrer">CommentPara</a>.
         <br>
         {{ else }}
       <div class="nosyndication">
