@@ -1,4 +1,4 @@
-# deploy-preview.yaml #test
+# deploy-preview.yaml
 
 # Workflow to build and deploy site to Vercel using Hugo
 # Name of Workflow
