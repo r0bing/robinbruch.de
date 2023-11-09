@@ -29,7 +29,7 @@ jobs:
 
     # Initiate deployment status
     - name: Start Deployment
-      uses: bobheadxi/deployments@v0.4.3
+      uses: bobheadxi/deployments@v1
       id: deployment
       with:
         step: start
@@ -40,7 +40,7 @@ jobs:
     - name: Install Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-          hugo-version: '0.119.0'
+          hugo-version: '0.120.4'
           extended: true
 
     # Step 3 - Builds the site using Hugo
@@ -62,14 +62,14 @@ jobs:
 
     # Update deployment status
     - name: Update Deployment Status
-      uses: bobheadxi/deployments@v0.4.3
+      uses: bobheadxi/deployments@v1
       if: always()
       with:
         step: finish
         token: ${{ secrets.GITHUB_TOKEN }}
         status: ${{ job.status }}
         deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-        env_url: ${{ steps.vercel-action.outputs.preview-url }} 
+        env: ${{ steps.vercel-action.outputs.preview-url }} 
  
  
  
